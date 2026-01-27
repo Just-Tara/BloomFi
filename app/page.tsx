@@ -5,7 +5,7 @@ export default function Home() {
   return(
    <main className="py-2 md:px-6">
     <section className=" h-screen ">
-      <div className="relative h-full w-full md:rounded-2xl overflow-hidden">
+      <div className="relative md:h-full h-[90vh] w-full md:rounded-2xl overflow-hidden">
       <Img
         src="/images/heroImage.png"
         alt="hers-section-bg"
@@ -13,7 +13,7 @@ export default function Home() {
         className="lg:object-cover h-full"
         priority/>
         <div className="absolute inset-0 bg-black/10">
-          <div className="relative z-10 h-full flex flex-col items-center text-center mt-30 ">
+          <div className="relative z-10 h-full flex flex-col items-center text-center md:mt-30 mt-20 ">
             <Img
               src="/images/logo2.png"
               alt="Backed companies"
