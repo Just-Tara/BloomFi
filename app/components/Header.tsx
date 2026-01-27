@@ -2,18 +2,25 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Plus } from "lucide-react";
-
+import Img from "next/image";
 
 export default function Header() {
    const [isOpen, setIsOpen] = useState(false);
 return(
    <header className="relative z-50 w-full p-3 md:px-6 md:py-4 flex items-center justify-between">
         <div className="text-[22px] font-semibold"> 
-            <h1 className="flex gap-1 items-center"> <Plus size="25px" className="font-bold"/> BloomFi</h1>
+            <h1 className="flex gap-1 items-center"> 
+                <Img
+                    src="/images/logo2.png"
+                    alt="Backed companies"
+                    width={1200}
+                    height={600}
+                    className="mx-auto md:w-10 w-8 h-auto"
+                    priority
+                />BloomFi</h1>
         </div>
 
-        <nav className="hidden md:flex gap-7 text-[16px] text-gray-800">
+        <nav className="hidden md:flex lg:gap-7 md:gap-5 text-[16px] text-gray-800">
             <Link href="#"> USD bloom</Link>
             <Link href="#"> Business</Link>
             <Link href="#">Treasury</Link>
