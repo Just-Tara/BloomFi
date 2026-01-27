@@ -15,7 +15,7 @@ export default function Home() {
 />
 
         <div className="absolute inset-0 bg-black/10">
-          <div className="relative z-10 h-full flex flex-col items-center text-center md:mt-30 mt-10 ">
+          <div className="relative z-10 h-full flex flex-col items-center text-center md:mt-30 mt-20 ">
             <Img
               src="/images/logo2.png"
               alt="Backed companies"
