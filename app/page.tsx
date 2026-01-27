@@ -7,15 +7,15 @@ export default function Home() {
     <section className="h-[80vh] md:h-screen">
      <div className="relative h-full w-full md:rounded-2xl overflow-hidden">
      <Img
-  src="/images/heroImage.png"
-  alt="hero-section-bg"
-  fill
-  className="object-cover object-center"
-  priority
-/>
+      src="/images/heroImage.png"
+      alt="hero-section-bg"
+      fill
+      className="object-cover object-center"
+      priority
+    />
 
         <div className="absolute inset-0 bg-black/10">
-          <div className="relative z-10 h-full flex flex-col items-center text-center md:mt-30 mt-20 ">
+          <div className="relative z-10 h-full flex flex-col items-center text-center justify-center ">
             <Img
               src="/images/logo2.png"
               alt="Backed companies"
@@ -61,7 +61,7 @@ export default function Home() {
             <h1 className="text-2xl md:text-3xl font-semibold">Capital that grows</h1>
           </div>
          <div className="absolute left-6 bottom-6">
-             <p className="text-gray-900 max-w-xs mt-2 md:mt-6 lg:mt-10">
+             <p className="text-gray-900 max-w-50 md:max-w-xs lg:w-[88%] mt-2 md:mt-6 lg:mt-10">
             Earn passive income as your stablecoins are deployed into high-performing DeFi protocols.
           </p>
          </div>
