@@ -10,7 +10,7 @@ export default function Home() {
         src="/images/heroImage.png"
         alt="hers-section-bg"
         fill
-        className="object-cover h-full"
+        className="lg:object-cover h-full"
         priority/>
         <div className="absolute inset-0 bg-black/10">
           <div className="relative z-10 h-full flex flex-col items-center text-center mt-30 ">
@@ -122,7 +122,7 @@ export default function Home() {
         stablecoin integrations.
       </p>
     </div>
-    <div className="lg:w-1/2 relative h-screen rounded-3xl overflow-hidden">
+    <div className="lg:w-1/2 relative md:h-screen h-[70vh] rounded-3xl overflow-hidden">
       <Img
         src="/images/houseImage.png"
         alt="House-image"
@@ -132,14 +132,14 @@ export default function Home() {
       />
       <div className="absolute left-6 top-6">
         <h1 className="text-2xl md:text-4xl font-semibold mb-5">Business</h1>
-        <p className="lg:text-[16px] text-gray-800 max-w-xl mb-3">
+        <p className="md:text-[16px] text-xs text-gray-700 max-w-xl mb-3 pr-5">
           Boost user engagement by offering USD Bloom, 
           a secure fiat-backed stablecoin with high yields,
           allowing customers to earn effortlessly on your platform.
-        </p>
-        <div className="flex items-center gap-2">
+        </p> 
+        <div className="flex items-center gap-2 md:text-[16px] text-sm">
           <ArrowRight size={20} className="bg-gray-300 p-1 rounded-full"/>
-          <Link href="#" className="text-gray-600">Learn more</Link>
+          <Link href="#" className="text-gray-600 ">Learn more</Link>
         </div>
       </div>
     </div>
