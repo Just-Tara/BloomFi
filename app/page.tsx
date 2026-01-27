@@ -5,7 +5,7 @@ export default function Home() {
   return(
    <main className="py-2 md:px-6">
     <section className=" h-screen ">
-      <div className="relative md:h-full h-[90vh] w-full md:rounded-2xl overflow-hidden">
+      <div className="relative md:h-full h-screen w-full md:rounded-2xl overflow-hidden">
       <Img
         src="/images/heroImage.png"
         alt="hers-section-bg"
