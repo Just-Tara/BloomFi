@@ -26,6 +26,7 @@ export default function Home() {
             />
             <h1 className="text-3xl md:text-5xl font-bold">Where Money Grows</h1>
             <p className="mt-4 max-w-xs text-gray-900">A programmable, utility-driven stable token designed for native value accural and seamless integration into DeFi.</p>
+            <button className="mt-4 rounded-full bg-gray-900 text-white px-8 py-2">Try it now</button>
           </div>
         </div>
       </div>
